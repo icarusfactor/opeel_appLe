@@ -30,7 +30,7 @@
  */
 defined('ABSPATH')or die('Hey, what are you doing here? You silly human!');
 //Check to make sure the needed classes are loaded. 
-if(!class_exists('opeelAppLe')&& class_exists('AppLePiePlugin')&& class_exist( 'RAWseed' )  ) {
+if(!class_exists('opeelAppLe')&& class_exists('AppLePiePlugin')&& class_exists( 'RAWseed' )  ) {
 
     class opeelAppLe {
         public $plugin;
